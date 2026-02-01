@@ -1,0 +1,41 @@
+@startuml
+
+' ======= CLASES =======
+entity Usuario {
+    Integer id
+    String nombre
+    String contrasena
+}
+
+entity Rol {
+    Integer id
+    String nombre
+}
+
+entity Publicacion {
+    Integer id
+    String titulo
+    String contenido
+}
+
+entity Comentario {
+    Integer id
+    String campos
+}
+
+entity Perfil {
+    Integer id
+    String nombre
+    String apellido
+    String email
+}
+
+' ======= RELACIONES =======
+Usuario "1" ||--|| "1" Perfil : tiene >
+Usuario "1" ||--o{ "0..n" Publicacion : publica >
+Usuario "1" ||--o{ "0..n" Comentario : escribe >
+Usuario "n" }o--o{ "m" Rol : pertenece >
+
+Publicacion "1" ||--o{ "0..n" Comentario : contiene >
+
+@enduml

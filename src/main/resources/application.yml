@@ -1,0 +1,3 @@
+logging:
+  file:
+    name: logs/api_rest_RedSocial.log
