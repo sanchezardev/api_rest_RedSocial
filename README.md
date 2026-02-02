@@ -1,6 +1,6 @@
 # Social Network REST API 🚀
 
-[![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=java)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-23-orange?style=flat-square&logo=java)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green?style=flat-square&logo=spring-boot)](https://spring.io/projects/spring-boot)
 [![Hibernate](https://img.shields.io/badge/Hibernate-ORM-59666C?style=flat-square&logo=hibernate)](https://hibernate.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql)](https://www.mysql.com/)
@@ -51,7 +51,7 @@ All requests and responses are handled in **JSON** format.
 
 ## 🛠 Tech Stack
 
-* **Language:** Java 17
+* **Language:** Java 23
 * **Framework:** Spring Boot 3.x (Spring Web, Spring Data JPA)
 * **Database:** MySQL / MariaDB
 * **ORM:** Hibernate
