@@ -2,6 +2,7 @@ package com.example.api_rest_RedSocial.controller;
 
 import com.example.api_rest_RedSocial.domain.model.Usuario;
 import com.example.api_rest_RedSocial.service.UsuarioServicio;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -28,7 +29,7 @@ public class UsuarioController {
     }
 
     @PostMapping
-    public void create(@RequestBody Usuario usuario){
+    public void create(@Valid @RequestBody Usuario usuario){
         usuarioServicio.save(usuario);
 
         //Para poder ejecutar en la consola del navegador

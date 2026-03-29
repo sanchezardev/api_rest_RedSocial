@@ -1,16 +1,30 @@
 package com.example.api_rest_RedSocial.domain.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 public class Publicacion {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @NotBlank(message = "El titulo no puede estar vacio")
+    @Size(min = 3, max = 100, message = "El titulo debe tener entre 3 y 50 caracteres")
     private String titulo;
+
+    @NotBlank(message = "El contenido no puede estar vacio")
+    @Size(max = 2000, message = "El contenido debe tener menos de 2000 caracteres")
     private String contenido;
 
     @ManyToOne
@@ -20,30 +34,4 @@ public class Publicacion {
     @OneToMany(mappedBy = "publicacion")
     private List<Comentario> comentarios;
 
-    public Publicacion(){
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getContenido() {
-        return contenido;
-    }
-
-    public void setContenido(String contenido) {
-        this.contenido = contenido;
-    }
 }

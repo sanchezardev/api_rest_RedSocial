@@ -2,6 +2,7 @@ package com.example.api_rest_RedSocial.controller;
 
 import com.example.api_rest_RedSocial.domain.model.Publicacion;
 import com.example.api_rest_RedSocial.service.PublicacionServicio;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.LoggerFactoryFriend;
@@ -33,8 +34,9 @@ public class PublicacionController {
     public Optional<Publicacion> findById(@PathVariable("id") int id){
         return publicacionServicio.findById(id);
     }
+
     @PostMapping
-    public ResponseEntity<Publicacion> create(@RequestBody Publicacion publicacion){
+    public ResponseEntity<Publicacion> create(@Valid @RequestBody Publicacion publicacion){
         LOGGER.info("Creando publicacion: {}", publicacion);
         Publicacion publicacionGuardada=publicacionServicio.save(publicacion);
         return ResponseEntity.ok().body(publicacionGuardada);

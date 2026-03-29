@@ -2,6 +2,7 @@ package com.example.api_rest_RedSocial.controller;
 
 import com.example.api_rest_RedSocial.domain.model.Rol;
 import com.example.api_rest_RedSocial.service.RolServicio;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
@@ -31,10 +32,12 @@ public class RolController {
     public Optional<Rol> findById(@PathVariable("id") int id){
         return rolServicio.findById(id);
     }
+
     @PostMapping
-    public void create(@RequestBody Rol rol){
+    public void create(@Valid @RequestBody Rol rol){
         rolServicio.save(rol);
     }
+
     @DeleteMapping(value="/{id}")
     public void deleteById(@PathVariable("id") int id){
         rolServicio.delete(id);

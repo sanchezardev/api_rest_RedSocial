@@ -2,6 +2,7 @@ package com.example.api_rest_RedSocial.controller;
 
 import com.example.api_rest_RedSocial.domain.model.Comentario;
 import com.example.api_rest_RedSocial.service.ComentarioServicio;
+import jakarta.validation.Valid;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -36,8 +37,9 @@ public class ComentarioController {
     public Optional<Comentario> findById(@PathVariable("id") int id){
         return comentarioServicio.findById(id);
     }
+
     @PostMapping
-    public ResponseEntity<Comentario> create(@RequestBody Comentario comentario){
+    public ResponseEntity<Comentario> create(@Valid @RequestBody Comentario comentario){
         LOGGER.info("Creando comentario: {}", comentario);
         Comentario comentarioGuardado = comentarioServicio.save(comentario);
         return ResponseEntity.ok().body(comentarioGuardado);

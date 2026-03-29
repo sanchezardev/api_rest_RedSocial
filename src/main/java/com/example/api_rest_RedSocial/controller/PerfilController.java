@@ -2,6 +2,7 @@ package com.example.api_rest_RedSocial.controller;
 
 import com.example.api_rest_RedSocial.domain.model.Perfil;
 import com.example.api_rest_RedSocial.service.PerfilServicio;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -34,8 +35,9 @@ public class PerfilController {
     public Optional<Perfil> findById(@PathVariable("id") int id){
         return perfilServicio.findById(id);
     }
+
     @PostMapping
-    public ResponseEntity<Perfil> create(@RequestBody Perfil perfil){
+    public ResponseEntity<Perfil> create(@Valid @RequestBody Perfil perfil){
         LOGGER.info("Creando perfil: {}", perfil);
         Perfil perfilGuardado = perfilServicio.save(perfil);
         return ResponseEntity.ok().body(perfilGuardado);

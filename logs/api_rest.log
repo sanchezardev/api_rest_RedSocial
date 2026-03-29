@@ -1616,3 +1616,471 @@ java.net.ConnectException: Connection refused: getsockopt
 2026-03-28 13:31:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-28 13:31:07 - HikariPool-1 - Shutdown initiated...
 2026-03-28 13:31:07 - HikariPool-1 - Shutdown completed.
+2026-03-28 17:52:07 - Starting ApiRestApplication using Java 23 with PID 21764 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-28 17:52:07 - No active profile set, falling back to 1 default profile: "default"
+2026-03-28 17:52:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28 17:52:08 - Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2026-03-28 17:52:08 - Tomcat initialized with port 8080 (http)
+2026-03-28 17:52:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-28 17:52:08 - Starting service [Tomcat]
+2026-03-28 17:52:08 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-28 17:52:08 - Initializing Spring embedded WebApplicationContext
+2026-03-28 17:52:08 - Root WebApplicationContext: initialization completed in 893 ms
+2026-03-28 17:52:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-28 17:52:08 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-28 17:52:08 - HHH000026: Second-level cache disabled
+2026-03-28 17:52:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28 17:52:08 - HikariPool-1 - Starting...
+2026-03-28 17:52:09 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@faec277
+2026-03-28 17:52:09 - HikariPool-1 - Start completed.
+2026-03-28 17:52:09 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28 17:52:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28 17:52:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28 17:52:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 17:52:10 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28 17:52:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28 17:52:10 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-28 17:52:10 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-28 17:52:10 - Started ApiRestApplication in 3.45 seconds (process running for 4.214)
+2026-03-28 17:52:10 - El logger funciona
+2026-03-28 17:52:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28 17:52:10 - Initializing Servlet 'dispatcherServlet'
+2026-03-28 17:52:10 - Completed initialization in 0 ms
+2026-03-28 17:57:02 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28 17:57:02 - Graceful shutdown complete
+2026-03-28 17:57:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 17:57:02 - HikariPool-1 - Shutdown initiated...
+2026-03-28 17:57:02 - HikariPool-1 - Shutdown completed.
+2026-03-28 17:57:05 - Starting ApiRestApplication using Java 23 with PID 24912 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-28 17:57:05 - No active profile set, falling back to 1 default profile: "default"
+2026-03-28 17:57:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28 17:57:05 - Finished Spring Data repository scanning in 35 ms. Found 5 JPA repository interfaces.
+2026-03-28 17:57:06 - Tomcat initialized with port 8080 (http)
+2026-03-28 17:57:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-28 17:57:06 - Starting service [Tomcat]
+2026-03-28 17:57:06 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-28 17:57:06 - Initializing Spring embedded WebApplicationContext
+2026-03-28 17:57:06 - Root WebApplicationContext: initialization completed in 732 ms
+2026-03-28 17:57:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-28 17:57:06 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-28 17:57:06 - HHH000026: Second-level cache disabled
+2026-03-28 17:57:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28 17:57:06 - HikariPool-1 - Starting...
+2026-03-28 17:57:06 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5a899811
+2026-03-28 17:57:06 - HikariPool-1 - Start completed.
+2026-03-28 17:57:06 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28 17:57:06 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28 17:57:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28 17:57:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 17:57:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28 17:57:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28 17:57:07 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-28 17:57:07 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-28 17:57:07 - Started ApiRestApplication in 2.776 seconds (process running for 3.043)
+2026-03-28 17:57:07 - El logger funciona
+2026-03-28 17:57:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28 17:57:17 - Initializing Servlet 'dispatcherServlet'
+2026-03-28 17:57:17 - Completed initialization in 0 ms
+2026-03-28 17:58:22 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28 17:58:22 - Graceful shutdown complete
+2026-03-28 17:58:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 17:58:22 - HikariPool-1 - Shutdown initiated...
+2026-03-28 17:58:22 - HikariPool-1 - Shutdown completed.
+2026-03-28 18:13:36 - Starting ApiRestApplication using Java 23 with PID 15876 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-28 18:13:36 - No active profile set, falling back to 1 default profile: "default"
+2026-03-28 18:13:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28 18:13:37 - Finished Spring Data repository scanning in 72 ms. Found 5 JPA repository interfaces.
+2026-03-28 18:13:37 - Tomcat initialized with port 8080 (http)
+2026-03-28 18:13:37 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-28 18:13:37 - Starting service [Tomcat]
+2026-03-28 18:13:37 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-28 18:13:37 - Initializing Spring embedded WebApplicationContext
+2026-03-28 18:13:37 - Root WebApplicationContext: initialization completed in 959 ms
+2026-03-28 18:13:37 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-28 18:13:37 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-28 18:13:37 - HHH000026: Second-level cache disabled
+2026-03-28 18:13:38 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28 18:13:38 - HikariPool-1 - Starting...
+2026-03-28 18:13:38 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3335afcf
+2026-03-28 18:13:38 - HikariPool-1 - Start completed.
+2026-03-28 18:13:38 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-28 18:13:38 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-28 18:13:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28 18:13:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 18:13:39 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-28 18:13:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-28 18:13:39 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-28 18:13:39 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-28 18:13:39 - Started ApiRestApplication in 3.651 seconds (process running for 4.037)
+2026-03-28 18:13:39 - El logger funciona
+2026-03-28 18:13:49 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-28 18:13:49 - Graceful shutdown complete
+2026-03-28 18:13:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28 18:13:49 - HikariPool-1 - Shutdown initiated...
+2026-03-28 18:13:49 - HikariPool-1 - Shutdown completed.
+2026-03-29 14:44:11 - Starting ApiRestApplication using Java 23 with PID 32592 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-29 14:44:11 - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 14:44:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-29 14:44:12 - Finished Spring Data repository scanning in 40 ms. Found 5 JPA repository interfaces.
+2026-03-29 14:44:12 - Tomcat initialized with port 8080 (http)
+2026-03-29 14:44:12 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-29 14:44:12 - Starting service [Tomcat]
+2026-03-29 14:44:12 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-29 14:44:12 - Initializing Spring embedded WebApplicationContext
+2026-03-29 14:44:12 - Root WebApplicationContext: initialization completed in 955 ms
+2026-03-29 14:44:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-29 14:44:12 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-29 14:44:12 - HHH000026: Second-level cache disabled
+2026-03-29 14:44:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-29 14:44:12 - HikariPool-1 - Starting...
+2026-03-29 14:44:12 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@531a716c
+2026-03-29 14:44:12 - HikariPool-1 - Start completed.
+2026-03-29 14:44:12 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-29 14:44:12 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-29 14:44:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-29 14:44:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 14:44:13 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-29 14:44:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-29 14:44:14 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-29 14:44:14 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-29 14:44:14 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-29 14:44:14 - Started ApiRestApplication in 3.591 seconds (process running for 4.487)
+2026-03-29 14:44:14 - El logger funciona
+2026-03-29 14:44:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-29 14:44:20 - Initializing Servlet 'dispatcherServlet'
+2026-03-29 14:44:20 - Completed initialization in 0 ms
+2026-03-29 14:45:38 - Init duration for springdoc-openapi is: 209 ms
+2026-03-29 14:47:50 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.example.api_rest_RedSocial.domain.model.Usuario#1073741824]] with root cause
+org.hibernate.StaleObjectStateException: Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect): [com.example.api_rest_RedSocial.domain.model.Usuario#1073741824]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:426)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:630)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy138.save(Unknown Source)
+	at com.example.api_rest_RedSocial.service.UsuarioServicioImpl.save(UsuarioServicioImpl.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:723)
+	at com.example.api_rest_RedSocial.service.UsuarioServicioImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.example.api_rest_RedSocial.controller.UsuarioController.create(UsuarioController.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-03-29 16:42:36 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-29 16:42:36 - Graceful shutdown complete
+2026-03-29 16:42:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 16:42:36 - HikariPool-1 - Shutdown initiated...
+2026-03-29 16:42:36 - HikariPool-1 - Shutdown completed.
+2026-03-29 19:32:57 - Starting ApiRestApplication using Java 23 with PID 18092 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-29 19:32:57 - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 19:32:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-29 19:32:57 - Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2026-03-29 19:32:58 - Tomcat initialized with port 8080 (http)
+2026-03-29 19:32:58 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-29 19:32:58 - Starting service [Tomcat]
+2026-03-29 19:32:58 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-29 19:32:58 - Initializing Spring embedded WebApplicationContext
+2026-03-29 19:32:58 - Root WebApplicationContext: initialization completed in 814 ms
+2026-03-29 19:32:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-29 19:32:58 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-29 19:32:58 - HHH000026: Second-level cache disabled
+2026-03-29 19:32:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-29 19:32:58 - HikariPool-1 - Starting...
+2026-03-29 19:32:58 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@531a716c
+2026-03-29 19:32:58 - HikariPool-1 - Start completed.
+2026-03-29 19:32:58 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-29 19:32:58 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-29 19:32:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-29 19:32:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 19:32:59 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-29 19:32:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-29 19:32:59 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-03-29 19:33:00 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-29 19:33:00 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-29 19:33:00 - Started ApiRestApplication in 2.944 seconds (process running for 5.274)
+2026-03-29 19:33:00 - El logger funciona
+2026-03-29 19:33:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-29 19:33:08 - Initializing Servlet 'dispatcherServlet'
+2026-03-29 19:33:08 - Completed initialization in 3 ms
+2026-03-29 19:51:28 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-29 19:51:28 - Graceful shutdown complete
+2026-03-29 19:51:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 19:51:28 - HikariPool-1 - Shutdown initiated...
+2026-03-29 19:51:28 - HikariPool-1 - Shutdown completed.
+2026-03-29 20:24:01 - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-29 20:24:01 - Starting ApiRestApplication using Java 23 with PID 22504 (B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial\target\classes started by oscar in B:\PROGRAMACION\IdeaProjects\api_rest_RedSocial)
+2026-03-29 20:24:01 - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 20:24:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-29 20:24:01 - Finished Spring Data repository scanning in 34 ms. Found 5 JPA repository interfaces.
+2026-03-29 20:24:02 - Tomcat initialized with port 8080 (http)
+2026-03-29 20:24:02 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-29 20:24:02 - Starting service [Tomcat]
+2026-03-29 20:24:02 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-29 20:24:02 - Initializing Spring embedded WebApplicationContext
+2026-03-29 20:24:02 - Root WebApplicationContext: initialization completed in 862 ms
+2026-03-29 20:24:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-29 20:24:02 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-03-29 20:24:02 - HHH000026: Second-level cache disabled
+2026-03-29 20:24:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-29 20:24:02 - HikariPool-1 - Starting...
+2026-03-29 20:24:02 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@70f85235
+2026-03-29 20:24:02 - HikariPool-1 - Start completed.
+2026-03-29 20:24:02 - HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-29 20:24:02 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 10.4.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-29 20:24:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-29 20:24:03 - Error: 1265-01000: Data truncated for column 'apellido' at row 1
+2026-03-29 20:24:03 - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table perfil 
+       modify column apellido varchar(50) not null" via JDBC [(conn=65) Data truncated for column 'apellido' at row 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table perfil 
+       modify column apellido varchar(50) not null" via JDBC [(conn=65) Data truncated for column 'apellido' at row 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.api_rest_RedSocial.ApiRestApplication.main(ApiRestApplication.java:15)
+Caused by: java.sql.SQLTransientConnectionException: (conn=65) Data truncated for column 'apellido' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:309)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1034)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1163)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:502)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 37 common frames omitted
+2026-03-29 20:24:03 - Error: 1265-01000: Data truncated for column 'contrasena' at row 1
+2026-03-29 20:24:03 - GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table usuario 
+       modify column contrasena varchar(50) not null" via JDBC [(conn=65) Data truncated for column 'contrasena' at row 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table usuario 
+       modify column contrasena varchar(50) not null" via JDBC [(conn=65) Data truncated for column 'contrasena' at row 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.api_rest_RedSocial.ApiRestApplication.main(ApiRestApplication.java:15)
+Caused by: java.sql.SQLTransientConnectionException: (conn=65) Data truncated for column 'contrasena' at row 1
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:309)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:189)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1235)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1174)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1093)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1017)
+	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:1034)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:1163)
+	at org.mariadb.jdbc.Statement.execute(Statement.java:502)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 37 common frames omitted
+2026-03-29 20:24:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 20:24:03 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-29 20:24:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-29 20:24:04 - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-29 20:24:04 - Tomcat started on port 8080 (http) with context path '/'
+2026-03-29 20:24:04 - Started ApiRestApplication in 3.258 seconds (process running for 3.538)
+2026-03-29 20:24:04 - El logger funciona
+2026-03-29 20:24:11 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-29 20:24:11 - Graceful shutdown complete
+2026-03-29 20:24:11 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29 20:24:11 - HikariPool-1 - Shutdown initiated...
+2026-03-29 20:24:11 - HikariPool-1 - Shutdown completed.
