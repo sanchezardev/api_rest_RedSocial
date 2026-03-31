@@ -1,5 +1,6 @@
 package com.example.api_rest_RedSocial.domain.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -23,6 +24,7 @@ public class Rol {
     @Size(min = 3, max = 50, message = "El nombre debe tener entre 3 y 50 caracteres")
     private String nombre;
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable(name="usuario_rol",
         joinColumns = @JoinColumn(name ="rol_id"),

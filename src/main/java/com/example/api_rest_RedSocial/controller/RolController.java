@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/roles")
+@RequestMapping("/rol")
 public class RolController {
 
     static final Logger LOGGER= LoggerFactory.getLogger(RolController.class);

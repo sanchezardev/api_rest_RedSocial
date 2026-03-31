@@ -1,5 +1,6 @@
 package com.example.api_rest_RedSocial.domain.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -30,6 +31,7 @@ public class Perfil {
     @Email(message = "El email no es valido")
     private String email;
 
+    @JsonIgnore
     @OneToOne(mappedBy = "perfil")
     private Usuario usuario;
 

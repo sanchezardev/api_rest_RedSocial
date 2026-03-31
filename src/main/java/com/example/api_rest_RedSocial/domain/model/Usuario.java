@@ -26,7 +26,7 @@ public class Usuario {
     private String nombre;
 
     @NotBlank(message = "La contrasena no puede estar vacia")
-    @Size(min = 8, max = 50, message = "La contrasena debe tener entre 8 y 50 caracteres")
+    @Size(min = 5, max = 50, message = "La contrasena debe tener entre 5 y 50 caracteres")
     private String contrasena;
 
 //    Por defecto todas las relaciones ToOne son FetchType.EAGER

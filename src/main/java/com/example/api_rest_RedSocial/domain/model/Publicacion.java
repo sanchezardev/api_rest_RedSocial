@@ -1,5 +1,6 @@
 package com.example.api_rest_RedSocial.domain.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -27,6 +28,7 @@ public class Publicacion {
     @Size(max = 2000, message = "El contenido debe tener menos de 2000 caracteres")
     private String contenido;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name="usuario_id")
     private Usuario usuario;

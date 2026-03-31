@@ -13,7 +13,7 @@ public class ApiRestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiRestApplication.class, args);
-		LOGGER.info("El logger funciona");
+		LOGGER.info("The application is running effectively");
 
 //		SerializationFeature.FAIL_ON_EMPTY_BEANS
 	}
