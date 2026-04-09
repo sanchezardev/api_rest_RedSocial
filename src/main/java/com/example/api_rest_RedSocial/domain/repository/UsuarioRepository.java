@@ -7,6 +7,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
@@ -23,5 +24,7 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 //    JPQL PURO, todo lo que sale aqui son los nombres de las clases java y sus atributos
     @Query(value = "SELECT u FROM Usuario u WHERE u.perfil.id is not null")
     List<Usuario> buscarQueTengaPerfil1();
+
+    Optional<Usuario> findByNombre(String name);
 }
 
