@@ -2,6 +2,9 @@ package com.example.api_rest_RedSocial.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -24,7 +27,7 @@ public class SecurityConfig {
                     .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
                     // Dejamos pública una posible ruta para registrarse o iniciar sesión (ajusta si tienes otra)
                     // .requestMatchers("/api/auth/**").permitAll()
-                    .requestMatchers("/api/registro").permitAll()
+                    .requestMatchers("/api/registro", "api/login").permitAll()
                     // Cualquier otra petición a la API requerirá estar autenticado
                     .anyRequest().authenticated()
             )
@@ -35,5 +38,9 @@ public class SecurityConfig {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
+    }
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
+        return config.getAuthenticationManager();
     }
 }

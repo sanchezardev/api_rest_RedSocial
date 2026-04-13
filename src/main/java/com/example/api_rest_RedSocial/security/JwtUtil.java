@@ -12,7 +12,11 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
-    private static final Key SECRET_KEY = Keys.secretKeyFor(SignatureAlgorithm.HS256);
+    //private static final Key SECRET_KEY = Keys.secretKeyFor(SignatureAlgorithm.HS256);
+
+    private static final String MI_CLAVE_SECRETA = "esta_es_una_llave_secreta_muy_larga_y_segura_123456789";
+    private static final Key SECRET_KEY = Keys.hmacShaKeyFor(MI_CLAVE_SECRETA.getBytes());
+
     private static final long EXPIRATION_TIME = 1000 * 60 * 60 * 2;
 
     public String generarToken(String username) {
