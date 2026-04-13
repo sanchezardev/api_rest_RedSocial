@@ -16,6 +16,7 @@ import java.io.IOException;
 
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
+
     @Autowired
     private JwtUtil jwtUtil;
 
@@ -28,42 +29,38 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 
         final String authorizationHeader = request.getHeader("Authorization");
 
-        // --- CHIVATOS DE DEPURACIÓN ---
-        System.out.println("\n--- 🔍 NUEVA PETICIÓN INTERCEPTADA ---");
-        System.out.println("Cabecera recibida: " + authorizationHeader);
-
         String username = null;
         String jwt = null;
 
+        // 1. Verificar si la petición contiene un Token en la cabecera
         if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
             jwt = authorizationHeader.substring(7);
-            System.out.println("Token limpio extraído: " + jwt);
-
             try {
-                // Intentamos descifrarlo matemáticamente
                 username = jwtUtil.extraerUsername(jwt);
-                System.out.println("✅ El token es de: " + username);
             } catch (Exception e) {
-                System.out.println("❌ ERROR MATEMÁTICO AL DESCIFRAR EL TOKEN: " + e.getMessage());
+                // Si el token está manipulado o expirado, se ignora la autenticación silenciosamente.
+                // Spring Security devolverá automáticamente un 403 Forbidden.
             }
-        } else {
-            System.out.println("⚠️ La petición no trae un Bearer Token correcto.");
         }
 
+        // 2. Si hay un usuario en el token y aún no está autenticado en este hilo
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+
             UserDetails userDetails = this.userDetailsService.loadUserByUsername(username);
 
+            // 3. Validar criptográficamente el token y registrar la sesión
             if (jwtUtil.validarToken(jwt, userDetails.getUsername())) {
-                System.out.println("✅ TOKEN VÁLIDO. ¡Abriendo las puertas para " + username + "!");
                 UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities());
+
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+
+                // Establecemos al usuario como "conectado" para el resto de la petición
                 SecurityContextHolder.getContext().setAuthentication(authToken);
-            } else {
-                System.out.println("❌ EL TOKEN NO ES VÁLIDO (quizás caducó o no coincide el usuario)");
             }
         }
 
+        // 4. Continuar con el ciclo de vida de la petición
         chain.doFilter(request, response);
     }
 }
