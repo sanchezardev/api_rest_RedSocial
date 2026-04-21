@@ -46,6 +46,7 @@ class UsuarioServicioImplTest {
     }
     @Test
     void readById_DeberiaDevolverUsuario_CuandoElIdNoExiste(){
+
         Integer idQueNoExiste=99;
 
         when(usuarioRepository.findById(idQueNoExiste)).thenReturn(Optional.empty());
