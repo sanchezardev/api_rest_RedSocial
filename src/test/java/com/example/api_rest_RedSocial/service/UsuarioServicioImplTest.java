@@ -44,4 +44,14 @@ class UsuarioServicioImplTest {
         assertEquals("Carlos", resultado.get().getNombre(), "El nombre del usuario no coincide");
         verify(usuarioRepository, times(1)).findById(idPrueba);
     }
+    @Test
+    void readById_DeberiaDevolverUsuario_CuandoElIdNoExiste(){
+        Integer idQueNoExiste=99;
+
+        when(usuarioRepository.findById(idQueNoExiste)).thenReturn(Optional.empty());
+        Optional<Usuario> resultado = usuarioServicio.readById(idQueNoExiste);
+
+        assertTrue(resultado.isEmpty(), "El resultado deberia estar vacio");
+        verify(usuarioRepository, times(1)).findById(idQueNoExiste);
+    }
 }
